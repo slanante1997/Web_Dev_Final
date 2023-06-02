@@ -1,29 +1,15 @@
-# voice-gpt
+To run the application:
 
-This template should help get you started developing with Vue 3 in Vite.
+- cd into the directory.
+- Install dependencies with 'npm install'
+- You will need two separate terminals to run the frontend and the backend:
+  
+  For the frontend:
+  - while in the Web_Dev_Final directory run 'npm run dev'
+  
+  For the backend:
+  - cd into 'backend' directory
+  - Also run 'npm install'
+  - Then run 'npm run watch'
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Once the backend and frontend are both running, ask questions and wait for chatGPT to talk to you :)
