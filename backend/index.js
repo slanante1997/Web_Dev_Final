@@ -19,7 +19,7 @@ app.post('/api/text-to-audio-file', async (req, res) => {
     const completion = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: req.body.text,
-        max_tokens: 100,
+        max_tokens: 500,
         temperature: 0.5
     })
 
