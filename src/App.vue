@@ -2,11 +2,11 @@
   <div>
     <v-card class="mx-auto mb-12" width="auto">
       <v-layout>
-        <v-app-bar class="custom-app-bar" color="yellow" density="compact">
+        <v-app-bar class="custom-app-bar" style="background-color: teal;" color= "teal" density="compact">
           <v-app-bar-title to="/">
             <v-btn :ripple="false" variant="plain" to="/">
-              <v-icon class="mdi mdi-cellphone-settings"></v-icon>
-              Home
+              <v-icon size="40" class="mdi mdi-robot-confused-outline"></v-icon>
+              <span style="margin-left: 8px">Home</span>
             </v-btn>
           </v-app-bar-title>
           <template v-slot:prepend> </template>
@@ -14,7 +14,7 @@
             <v-menu>
               <template v-slot:activator="{ props }">
                 <v-btn v-bind="props">
-                  <Icon icon="charm:menu-hamburger" color="#120" width="25" height="25" />
+                  <Icon icon="charm:menu-hamburger" color="white" width="25" height="25" />
                 </v-btn>
               </template>
               <v-list>
