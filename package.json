@@ -10,9 +10,13 @@
   "dependencies": {
     "axios": "^1.4.0",
     "vue": "^3.3.2",
-    "vue-audio-visual": "^3.0.5"
+    "vue-audio-visual": "^3.0.5",
+    "vue-router": "^4.2.2",
+    "vuetify": "^3.1.13"
   },
   "devDependencies": {
+    "@iconify/vue": "^4.1.1",
+    "@mdi/font": "^7.2.96",
     "@vitejs/plugin-vue": "^4.2.3",
     "vite": "^4.3.5"
   }
