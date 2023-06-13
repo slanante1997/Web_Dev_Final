@@ -1,7 +1,7 @@
 <template>
     <div class="about">
       <v-card>
-        <v-card-title> This is a vue/vuetify class! </v-card-title>
+        <v-card-title> Instructions</v-card-title>
         <v-card-subtitle> (College Class) </v-card-subtitle>
   
         <v-card-text>
