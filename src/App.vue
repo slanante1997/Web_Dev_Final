@@ -17,12 +17,15 @@
                   <Icon icon="charm:menu-hamburger" color="white" width="25" height="25" />
                 </v-btn>
               </template>
-              <v-list>
+              <v-list style="background-color: 	rgb(0,145,139)">
                 <v-list-item>
                   <RouterLink to="/chatgpt">ChatGPT</RouterLink>
                 </v-list-item>
                 <v-list-item>
                   <RouterLink to="/instructions">Instructions</RouterLink>
+                </v-list-item>
+                <v-list-item>
+                  <RouterLink to="/instructions">Home</RouterLink>
                 </v-list-item>
               </v-list>
             </v-menu>
