@@ -1,6 +1,11 @@
 <template>
+  <div>
+    <h1 class="d-flex align-center justify-center">
+      ChatGPT Demo
+    </h1>
+  </div>
   <div class="btn-section">
-    <button type="button" @click="runSpeechRecognition()" style="font-family: sans-serif;">Ask question</button>
+    <v-btn class="pa-10" type="button" @click="runSpeechRecognition()" style="font-family: sans-serif; font-size: large; background-color: teal;">Ask question</v-btn>
   </div>
   <div class="display-section">
     <div class="action" v-if="action">{{ action }}</div>
