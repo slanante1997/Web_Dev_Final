@@ -1,11 +1,11 @@
 <template>
+  <br>
   <div>
-    <h1 class="d-flex align-center justify-center">
-      ChatGPT Demo
-    </h1>
+    <h1 class="text-h2" style="text-align: center; color: darkcyan; font-family: sans-serif; font-weight: lighter;">ChatGPT Demo</h1>
   </div>
   <div class="btn-section">
-    <v-btn class="pa-10" type="button" @click="runSpeechRecognition()" style="font-family: sans-serif; font-size: large; background-color: teal;">Ask question</v-btn>
+    <v-btn  type="button" @click="runSpeechRecognition()" variant="outlined" class="text-h6" style="min-height: 60px; min-width: 200px; color: teal; border-color: black; border-width: 1.5px;">Ask question <v-icon>mdi-microphone</v-icon></v-btn>
+   
   </div>
   <div class="display-section">
     <div class="action" v-if="action">{{ action }}</div>
